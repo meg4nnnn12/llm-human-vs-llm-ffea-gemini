@@ -1,0 +1,20 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/code"
+      },
+      "log_file": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/logs/resource_finder_gemini.log",
+      "transcript_file": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini/logs/resource_finder_gemini_transcript.jsonl",
+      "elapsed_time": 2146.058856010437
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/llm-human-vs-llm-ffea-gemini"
+}
