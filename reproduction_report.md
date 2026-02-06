@@ -35,7 +35,8 @@ This allowed me to understand the methodology, statistical approach, and interpr
 
 ### Dependencies Installed
 I manually installed the following packages because the original `requirements.txt` had some issues:
-```bash python3 -m pip install openai tqdm anthropic matplotlib scipy numpy pandas seaborn tenacity textblob --break-system-packages
+```
+bash python3 -m pip install openai tqdm anthropic matplotlib scipy numpy pandas seaborn tenacity textblob --break-system-packages
 ```
 
 ## 4. Challenges I Encountered
@@ -55,7 +56,7 @@ I tried creating a virtual environment using `uv venv` like the ReadMe said, but
 When I first tried to run `generate_prompts.py`, there was an error message that the HC3 dataset was missing. I was worried I'd have to find and download it, but then I checked the results folder and realized all the data files were already there. I could skip the data generation steps and go straight to the analysis.
 
 ### 5. Trial and Error Process
-The whole process involved a lot of running a command, getting an error about a missing package, installing that package, and trying again. It was frustrating at times but I learned a lot about how Python dependencies work and how to read error messages.
+The whole process involved a lot of running a command, getting an error about a missing package, installing that package, and trying again. It was frustrating at times but I learned a lot about how Python dependencies work and how to read error messages. It was especially hard because I had to search up what some of the syntax meant, but I also learned a lot during that process. 
 
 After about an hour of debugging, I finally got `analyze_results.py` to run successfully and it generated all the plots and statistics!
 
@@ -63,7 +64,8 @@ After about an hour of debugging, I finally got `analyze_results.py` to run succ
 ## 4. Running the Analysis
 
 Since the experiment data already existed, I ran:
-```bash python3 src/analyze_results.py
+```
+bash python3 src/analyze_results.py
 ```
 
 ### Results Obtained
